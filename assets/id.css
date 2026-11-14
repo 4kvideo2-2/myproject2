@@ -22,15 +22,15 @@ p, input {
 
 .login{
     color: white;
-    line-height: 45px;
+    line-height: 50px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
     width: 100%;
     background-color: rgb(62, 94, 254);
-    height: 45px;
+    height: 50px;
     border-radius: 12px;
-    margin-bottom: 0px;
+    margin-bottom: 12px;
     font-weight: 400;
 }
 
@@ -50,8 +50,8 @@ p, input {
     margin-bottom: auto;
     height: max-content;
     margin-left: 10px;
-    font-weight: 525;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 26px;
 }
 
 .welcome{
@@ -60,7 +60,7 @@ p, input {
     font-size: 40px;
     margin-bottom: auto;
     height: max-content;
-    margin-top: 18px;
+    margin-top: 35px;
 }
 
 .background {
@@ -136,7 +136,7 @@ p, input {
 }
 
 .logo{
-    width: 38px;
+    width: 45px;
 }
 .data {
     display: flex;
@@ -155,13 +155,13 @@ p, input {
     color: white;
     font-size: 13px;
     text-align: right;
-    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .krajowy-plan-odbudowy {
     color: rgb(255, 255, 255);
     font-size: 14px;
     text-align: left;
-    margin-top: 18px;
+    margin-bottom: 18px;
     font-weight: 400;
 }
