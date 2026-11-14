@@ -1,0 +1,167 @@
+body{
+    background-color: #000000;
+}
+p, input {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    grid-template-rows: max-content max-content;
+    position: absolute;
+    bottom: 20px;
+    margin-bottom: -12px;
+    margin-top: auto;
+}
+
+.login{
+    color: white;
+    line-height: 45px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    background-color: rgb(62, 94, 254);
+    height: 45px;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.data{
+    height: max-content;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 80px 100px calc(100% - 180px);
+    grid-template-rows: max-content;
+}
+
+.logo_text{
+   color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: max-content;
+    margin-left: 10px;
+    font-weight: 525;
+    font-size: 22px;
+}
+
+.welcome{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: auto;
+    height: max-content;
+    margin-top: 18px;
+}
+
+.background {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+
+    background-image: url('../assets/images/login.png');
+    background-size: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background::after {
+    content: "";
+    position: absolute;
+    inset: -10px;
+
+    background-image: url('../assets/images/login.png');
+    background-size: 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(10px) brightness(0.2);
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 100%
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 100%
+    );
+}
+
+
+
+.login_text{
+   color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: max-content;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 250;
+}
+
+.top_grid{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: 100%;
+    height: max-content;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top_text{
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 100%;
+    width: 97%;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-rows: max-content max-content;
+    margin-bottom: 5px;
+}
+
+.logo{
+    width: 38px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.version {
+    color: white;
+    font-size: 13px;
+    text-align: right;
+    margin-top: 18px;
+}
+
+.krajowy-plan-odbudowy {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: left;
+    margin-top: 18px;
+    font-weight: 400;
+}
